@@ -1,0 +1,14 @@
+{
+  "cookie": [
+    {
+      "name": "accessToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0MmIzNTYwZS1kYjQ0LTRhZTYtODM4My1mOGI5YTIzMzhhODciLCJhZG1pbl9hY2Nlc3MiOiIyIiwidXNlcl9pZCI6IjYzNDU2NTQ0LTJhMWYtNDY3OC04ZTNiLTNiNWE0YjNhMGYwNCIsInVuaXF1ZV9uYW1lIjoiYWJyb2RpbkBuaXZhYy5jb20iLCJlbnRpdHlfaWQiOiIwNzk1NjNhYi02YTM4LTQzZTctOGZiMS03ZTVlNjQzM2FjY2YiLCJuYmYiOjE2OTE5OTQ3MTksImV4cCI6MTY5MjA4MTExOSwiaWF0IjoxNjkxOTk0NzE5LCJpc3MiOiJodHRwczovL2RlYmVlcnMtbG1zLXFhLWFwaS0xLmF6dXJld2Vic2l0ZXMubmV0IiwiYXVkIjoiaHR0cHM6Ly9kZWJlZXJzLWxtcy1xYS1hcGktMi5henVyZXdlYnNpdGVzLm5ldCJ9.0SLUsQ8XqaG3Nvd1YQ0wXl84guVdTLd0K6WR8y7mAyM",
+      "url": "https://localhost:4002"
+    },
+    {
+      "name": "isAccountActive",
+      "value": "true",
+      "url": "https://localhost:4002"
+    }
+  ]
+}

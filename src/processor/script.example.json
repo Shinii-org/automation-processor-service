@@ -1,0 +1,43 @@
+{
+  "environment": "QA",
+  "testCase": {
+    "name": "Login",
+    "url": "http://localhost:4002",
+    "steps": [
+      {
+        "name": "Fill Email",
+        "receiver": {
+          "where": "form[id='/login'] input[name='ee7927c74']",
+          "action": "fill",
+          "value": "text"
+        }
+      },
+      {
+        "name": "Click Submit Button",
+        "receiver": {
+          "where": "form[id='/login'] button",
+          "action": "click",
+          "value": "",
+          "timeout": 20000
+        }
+      },
+      {
+        "name": "Fill Password",
+        "receiver": {
+          "where": "form[id='/login'] input[name='p35c246d5']",
+          "action": "fill",
+          "value": "text"
+        }
+      },
+      {
+        "name": "Click Submit Button",
+        "receiver": {
+          "where": "form[id='/login'] button",
+          "action": "click",
+          "value": "",
+          "timeout": 20000
+        }
+      }
+    ]
+  }
+}

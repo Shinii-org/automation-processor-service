@@ -1,3 +1,4 @@
+import { APP } from "@app/app.config"
 export const DEFAULT_PLAYWRIGHT_CONFIG = {
   //Global Setup to run before all tests  
   globalSetup: `./global-setup`,
@@ -13,7 +14,7 @@ export const DEFAULT_PLAYWRIGHT_CONFIG = {
 
   //Reporters
   reporter: [
-    [`./CustomReporterConfig.ts`],
+    [`../processor/CustomReporterConfig.ts`],
     [`allure-playwright`],
     [`html`, { outputFolder: ``, open: 'never' }]
   ],

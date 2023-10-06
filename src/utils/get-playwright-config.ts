@@ -16,6 +16,6 @@ export const getPlaywrightConfig = (output: string) => {
     (customizedConfig.reporter[htmlReporterIndex][1] as { outputFolder: string }).outputFolder = `${output}`
   }
   // console.log(customizedConfig)
-
+  console.log(customizedConfig.reporter[2][1], 'customizedConfig')
   return customizedConfig
 }

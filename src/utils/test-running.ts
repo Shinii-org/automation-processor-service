@@ -3,7 +3,6 @@ import { setBrowser } from '@app/processor/utils/browserServices';
 
 export async function runCustomTests(jsonObject: any, config: any) {
   if (config.projects) {
-    const reporter = config.reporter
     const browserPromises = config.projects.map(async (project) => {
       const { use } = project
       const { browserName } = use

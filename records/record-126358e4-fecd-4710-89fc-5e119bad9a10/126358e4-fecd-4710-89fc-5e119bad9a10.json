@@ -1,0 +1,16 @@
+{
+  "testCase": {
+    "name": "test",
+    "url": "https://docs.nestjs.com/first-steps",
+    "steps": [
+      {
+        "name": "test",
+        "receiver": {
+          "where": "//*[@id=\"search\"]/button",
+          "action": "click"
+        }
+      }
+    ],
+    "id": "126358e4-fecd-4710-89fc-5e119bad9a10"
+  }
+}
